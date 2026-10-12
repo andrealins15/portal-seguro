@@ -1,0 +1,28 @@
+# Segredos e variáveis de ambiente
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials.json
+service-account*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+
+# Banco de dados e arquivos locais
+*.db
+*.sqlite
+*.sqlite3
+
+# Sistema e IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
