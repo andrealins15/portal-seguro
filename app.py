@@ -117,7 +117,7 @@ def logout():
 
 @app.errorhandler(429)
 def too_many_requests(error):
-    return (
+    return (Cria aplicação Flask com autenticação
         render_template(
             "error.html",
             code=429,
